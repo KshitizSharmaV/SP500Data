@@ -9,7 +9,7 @@ Packge you might not have : 'pip install datapackage'
 ## Getting stock prices
 You can also call the get_price_data_function() to get any stock price.
 
-##Note : The script provide data only for last 5 years, since the data is from IEX.
+#Note : The script provide data only for last 5 years, since the data is from IEX.
 
 The 2 SP500 data .csv file have data from 
 Start : datetime.datetime(2015, 9, 7, 10, 44, 28, 619559) 
