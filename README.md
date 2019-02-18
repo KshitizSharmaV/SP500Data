@@ -1,2 +1,18 @@
 # SP500Data
 Download SP500 latest data by running Python Script - Sources IEX and datahub.io
+
+# How to run
+Please simply install the required packages and run the code to get SP500 data. You will get 2 files, one with OHLC+volume and other with just close prices.
+
+## Getting stock prices
+You can also call the get_price_data_function() to get any stock price.
+
+##Note : The script provide data only for last 5 years, since the data is from IEX.
+
+The 2 SP500 data .csv file have data from 
+Start : datetime.datetime(2015, 9, 7, 10, 44, 28, 619559) 
+End : datetime.datetime(2019, 2, 18, 10, 44, 28, 619618)
+
+References : 
+https://iextrading.com/trading/market-data/
+https://datahub.io/core/s-and-p-500-companies#python
