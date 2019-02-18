@@ -37,8 +37,6 @@ for resource in resources:
         print (data)    
 
 sp500tickers=list(data['Symbol'])
-#list_to_remove=['CTL','FTV','MKC','SPGI','ZION']
-#sp500tickers= list(set(sp500tickers).difference(set(list_to_remove)))
 
 
 sp500data=get_price_data_function(sp500tickers[0:100])        
