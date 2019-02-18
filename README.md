@@ -4,6 +4,8 @@ Download SP500 latest data by running Python Script - Sources IEX and datahub.io
 # How to run
 Please simply install the required packages and run the code to get SP500 data. You will get 2 files, one with OHLC+volume and other with just close prices.
 
+Packge you might not have : 'pip install datapackage'
+
 ## Getting stock prices
 You can also call the get_price_data_function() to get any stock price.
 
